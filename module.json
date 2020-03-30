@@ -1,0 +1,26 @@
+{
+  "name": "lancer-conditions",
+  "title": "LANCER Condition Icons",
+  "description": "",
+  "authors": [
+    {
+      "name": "Eranziel",
+      "email": "",
+      "url": "https://github.com/Eranziel"
+    },
+    {
+      "name": "Cancermantis",
+      "email": "",
+      "url": ""
+    }
+  ],
+  "version": "0.1.0",
+  "minimumCoreVersion": "0.5.0",
+  "system": "lancer",
+  "scripts": ["scripts/lancer-conditions.js"],
+  "languages": [],
+  "url": "https://github.com/Eranziel/lancer-conditions",
+  "manifest": "https://github.com/Eranziel/lancer-conditions/raw/master/module.json",
+  "download": "https://github.com/Eranziel/lancer-conditions/archive/master.zip",
+  "license": "GNU GPLv3"
+}
