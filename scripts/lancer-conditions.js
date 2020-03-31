@@ -22,28 +22,21 @@ CONFIG.statusEffects = [
 ];
   
 // Condition Types
-// CONFIG.conditionTypes = {
-//   "blinded": "Blinded",
-//   "charmed": "Charmed",
-//   "dead": "Dead",
-//   "deafened": "Deafened",
-//   "diseased": "Diseased",
-//   "exhaustion": "Exhaustion",
-//   "exhaustion1": "Exhaustion Level 1",
-//   "exhaustion2": "Exhaustion Level 2",
-//   "exhaustion3": "Exhaustion Level 3",
-//   "exhaustion4": "Exhaustion Level 4",
-//   "exhaustion5": "Exhaustion Level 5",
-//   "frightened": "Frightened",
-//   "grappled": "Grappled",
-//   "incapacitated": "Inacapacitated",
-//   "invisible": "Invisible",
-//   "paralyzed": "Paralyzed",
-//   "petrified": "Petrified",
-//   "poisoned": "Poisoned",
-//   "prone": "Prone",
-//   "restrained": "Restrained",
-//   "stunned": "Stunned",
-//   "unconscious": "Unconscious",
-//   "wounded": "Wounded"
-// };
+CONFIG.conditionTypes = {
+  "burn": "Burn",
+  "dangerzone": "Danger Zone",
+  "downandout": "Down and Out",
+  "engaged": "Engaged",
+  "exposed": "Exposed",
+  "flying": "Flying",
+  "hidden": "Hidden",
+  "immobilized": "Immobilized",
+  "impaired": "Impaired",
+  "jammed": "Jammed",
+  "lockon": "Lock On",
+  "prone": "Prone",
+  "shredded": "Shredded",
+  "shutdown": "Shut Down",
+  "slowed": "Slowed",
+  "stunned": "Stunned"
+};

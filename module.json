@@ -2,6 +2,7 @@
   "name": "lancer-conditions",
   "title": "LANCER Condition Icons",
   "description": "",
+  "author": "Eranziel",
   "authors": [
     {
       "name": "Eranziel",
@@ -14,7 +15,7 @@
       "url": ""
     }
   ],
-  "version": "0.1.0",
+  "version": "0.1.1",
   "minimumCoreVersion": "0.5.0",
   "system": "lancer",
   "scripts": ["scripts/lancer-conditions.js"],
