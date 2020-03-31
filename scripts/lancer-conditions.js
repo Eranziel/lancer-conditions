@@ -2,9 +2,9 @@
  * An array of status effect icons which can be applied to Tokens
  * @type {Array}
  */
-CONFIG.statusEffects = [
+CONFIG.statusEffects.append(
   "modules/lancer-conditions/icons/burn.png",
-  "modules/lancer-conditions/icons/dangerzonepng",
+  "modules/lancer-conditions/icons/dangerzone.png",
   "modules/lancer-conditions/icons/downandout.png",
   "modules/lancer-conditions/icons/engaged.png",
   "modules/lancer-conditions/icons/exposed.png",
@@ -19,7 +19,7 @@ CONFIG.statusEffects = [
   "modules/lancer-conditions/icons/shutdown.png",
   "modules/lancer-conditions/icons/slowed.png",
   "modules/lancer-conditions/icons/stunned.png"
-];
+);
   
 // Condition Types
 CONFIG.conditionTypes = {
