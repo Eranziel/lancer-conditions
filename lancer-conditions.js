@@ -1,4 +1,5 @@
 import { registerSettings } from "./scripts/settings"
+import { cancerIcons, condStatIcons, pcIcons, npcIcons, utilIcons } from "./scripts/icons";
 
 /* ------------------------------------ */
 /* Initialize system				          	*/
@@ -6,35 +7,32 @@ import { registerSettings } from "./scripts/settings"
 Hooks.once('init', async function() {
 	console.log("Initializing Lancer Conditions module");
   registerSettings();
+  setupIcons();
 });
 
+function setupIcons() {
+  const keepStock = game.settings.get("lancer-conditions", "keepStockIcons");
+  const cancermantis = game.settings.get("lancer-conditions", "cancermantis");
+  const condStat = game.settings.get("lancer-conditions", "hayleyConditionStatus");
+  const pc = game.settings.get("lancer-conditions", "hayleyPC");
+  const npc = game.settings.get("lancer-conditions", "hayleyNPC");
+  const util = game.settings.get("lancer-conditions", "hayleyUtility");
 
-function foo() {
-  const currentVersion = game.settings.get("lancer", "systemMigrationVersion");
+  let icons = [];
+  if (keepStock)    icons = icons.concat(CONFIG.statusEffects);
+  if (cancermantis) icons = icons.concat(cancerIcons);
+  if (condStat)     icons = icons.concat(condStatIcons);
+  if (pc)           icons = icons.concat(pcIcons);
+  if (npc)          icons = icons.concat(npcIcons);
+  if (util)         icons = icons.concat(utilIcons);
 
   /**
    * An array of status effect icons which can be applied to Tokens
    * @type {Array}
    */
-  CONFIG.statusEffects = CONFIG.statusEffects.concat([
-    "modules/lancer-conditions/icons/burn.png",
-    "modules/lancer-conditions/icons/dangerzone.png",
-    "modules/lancer-conditions/icons/downandout.png",
-    "modules/lancer-conditions/icons/engaged.png",
-    "modules/lancer-conditions/icons/exposed.png",
-    "modules/lancer-conditions/icons/flying.png",
-    "modules/lancer-conditions/icons/hidden.png",
-    "modules/lancer-conditions/icons/immobilized.svg",
-    "modules/lancer-conditions/icons/impaired.png",
-    "modules/lancer-conditions/icons/jammed.svg",
-    "modules/lancer-conditions/icons/lockon.png",
-    "modules/lancer-conditions/icons/prone.png",
-    "modules/lancer-conditions/icons/shredded.svg",
-    "modules/lancer-conditions/icons/shutdown.png",
-    "modules/lancer-conditions/icons/slowed.png",
-    "modules/lancer-conditions/icons/stunned.png"
-  ]);
+  CONFIG.statusEffects = icons;
 
+  // TODO: is this needed? What does it do?
   // Condition Types
   CONFIG.conditionTypes = {
     "burn": "Burn",
