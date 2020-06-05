@@ -16,9 +16,13 @@
       "name": "Cancermantis",
       "email": "",
       "url": ""
+    },
+    {
+      "name": "Hayley",
+      "email": "",
+      "url": ""
     }
   ],
-  "system": "",
   "esmodules": ["lancer-conditions.js"],
   "languages": [],
   "url": "https://github.com/Eranziel/lancer-conditions",
