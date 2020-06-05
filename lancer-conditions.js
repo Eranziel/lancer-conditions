@@ -1,5 +1,5 @@
-import { registerSettings } from "./scripts/settings"
-import { cancerIcons, condStatIcons, pcIcons, npcIcons, utilIcons } from "./scripts/icons";
+import { registerSettings } from "./scripts/settings.js"
+import { cancerIcons, condStatIcons, pcIcons, npcIcons, utilIcons } from "./scripts/icons.js";
 
 /* ------------------------------------ */
 /* Initialize system				          	*/
@@ -13,7 +13,7 @@ Hooks.once('init', async function() {
 function setupIcons() {
   const keepStock = game.settings.get("lancer-conditions", "keepStockIcons");
   const cancermantis = game.settings.get("lancer-conditions", "cancermantis");
-  const condStat = game.settings.get("lancer-conditions", "hayleyConditionStatus");
+  const condStat = game.settings.get("lancer-conditions", "hayleyConditionsStatus");
   const pc = game.settings.get("lancer-conditions", "hayleyPC");
   const npc = game.settings.get("lancer-conditions", "hayleyNPC");
   const util = game.settings.get("lancer-conditions", "hayleyUtility");
