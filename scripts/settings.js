@@ -12,10 +12,21 @@ export const registerSettings = function() {
   });
 
   /**
-   * Use Cancermantis' icons
+   * Use Cancermantis' conditions and status icons
    */
-  game.settings.register("lancer-conditions", "cancermantis", {
-    name: "Use Cancermantis' Icons",
+  game.settings.register("lancer-conditions", "cancerConditionsStatus", {
+    name: "Use Cancermantis' Conditions & Status Icons",
+    scope: "world",
+    type: Boolean,
+    config: true,
+    default: false
+  });
+
+  /**
+   * Use Cancermantis' NPC template icons
+   */
+  game.settings.register("lancer-conditions", "cancerNPCTemplates", {
+    name: "Use Cancermantis' NPC Template Icons",
     scope: "world",
     type: Boolean,
     config: true,
@@ -26,7 +37,7 @@ export const registerSettings = function() {
    * Use Hayley's conditions and status icons
    */
   game.settings.register("lancer-conditions", "hayleyConditionsStatus", {
-    name: "Use Hayley's Condition and Status Icons",
+    name: "Use Hayley's Condition & Status Icons",
     scope: "world",
     type: Boolean,
     config: true,

@@ -1,24 +1,40 @@
 
-export const cancerIcons = [
-  "modules/lancer-conditions/icons/cancermantis/burn.png",
-  "modules/lancer-conditions/icons/cancermantis/dangerzone.png",
-  "modules/lancer-conditions/icons/cancermantis/downandout.png",
-  "modules/lancer-conditions/icons/cancermantis/engaged.png",
-  "modules/lancer-conditions/icons/cancermantis/exposed.png",
-  "modules/lancer-conditions/icons/cancermantis/flying.png",
-  "modules/lancer-conditions/icons/cancermantis/hidden.png",
-  "modules/lancer-conditions/icons/cancermantis/immobilized.svg",
-  "modules/lancer-conditions/icons/cancermantis/impaired.png",
-  "modules/lancer-conditions/icons/cancermantis/jammed.svg",
-  "modules/lancer-conditions/icons/cancermantis/lockon.png",
-  "modules/lancer-conditions/icons/cancermantis/prone.png",
-  "modules/lancer-conditions/icons/cancermantis/shredded.svg",
-  "modules/lancer-conditions/icons/cancermantis/shutdown.png",
-  "modules/lancer-conditions/icons/cancermantis/slowed.png",
-  "modules/lancer-conditions/icons/cancermantis/stunned.png"
+export const cancerCondStatIcons = [
+  "modules/lancer-conditions/icons/cancercondstat/burn.png",
+  "modules/lancer-conditions/icons/cancercondstat/dangerzone.png",
+  "modules/lancer-conditions/icons/cancercondstat/downandout.svg",
+  "modules/lancer-conditions/icons/cancercondstat/engaged.png",
+  "modules/lancer-conditions/icons/cancercondstat/exposed.png",
+  "modules/lancer-conditions/icons/cancercondstat/flying.png",
+  "modules/lancer-conditions/icons/cancercondstat/hidden.png",
+  "modules/lancer-conditions/icons/cancercondstat/immobilized.svg",
+  "modules/lancer-conditions/icons/cancercondstat/impaired.svg",
+  "modules/lancer-conditions/icons/cancercondstat/invisible.svg",
+  "modules/lancer-conditions/icons/cancercondstat/jammed.svg",
+  "modules/lancer-conditions/icons/cancercondstat/lockon.svg",
+  "modules/lancer-conditions/icons/cancercondstat/prone.png",
+  "modules/lancer-conditions/icons/cancercondstat/shredded.svg",
+  "modules/lancer-conditions/icons/cancercondstat/shutdown.svg",
+  "modules/lancer-conditions/icons/cancercondstat/slowed.svg",
+  "modules/lancer-conditions/icons/cancercondstat/stunned.svg"
 ];
 
-export const condStatIcons = [
+export const cancerNPCIons = [
+  "modules/lancer-conditions/icons/cancernpc/commander.svg",
+  "modules/lancer-conditions/icons/cancernpc/elite.svg",
+  "modules/lancer-conditions/icons/cancernpc/exotic.svg",
+  "modules/lancer-conditions/icons/cancernpc/grunt.svg",
+  "modules/lancer-conditions/icons/cancernpc/mercenary.svg",
+  "modules/lancer-conditions/icons/cancernpc/prirate.svg",
+  "modules/lancer-conditions/icons/cancernpc/rpv.svg",
+  "modules/lancer-conditions/icons/cancernpc/ship.svg",
+  "modules/lancer-conditions/icons/cancernpc/spacer.svg",
+  "modules/lancer-conditions/icons/cancernpc/ultra.svg",
+  "modules/lancer-conditions/icons/cancernpc/vehicle.svg",
+  "modules/lancer-conditions/icons/cancernpc/veteran.svg"
+];
+
+export const hayleyCondStatIcons = [
   "modules/lancer-conditions/icons/condstat/bolster.png",
   "modules/lancer-conditions/icons/condstat/downandout.png",
   "modules/lancer-conditions/icons/condstat/exposed.png",

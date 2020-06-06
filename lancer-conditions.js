@@ -1,5 +1,5 @@
 import { registerSettings } from "./scripts/settings.js"
-import { cancerIcons, condStatIcons, pcIcons, npcIcons, utilIcons } from "./scripts/icons.js";
+import { cancerCondStatIcons, hayleyCondStatIcons, pcIcons, npcIcons, utilIcons, cancerNPCIons } from "./scripts/icons.js";
 
 /* ------------------------------------ */
 /* Initialize system				          	*/
@@ -12,7 +12,8 @@ Hooks.once('init', async function() {
 
 function setupIcons() {
   const keepStock = game.settings.get("lancer-conditions", "keepStockIcons");
-  const cancermantis = game.settings.get("lancer-conditions", "cancermantis");
+  const cancercond = game.settings.get("lancer-conditions", "cancerConditionsStatus");
+  const cancernpc = game.settings.get("lancer-conditions", "cancerNPCTemplates");
   const condStat = game.settings.get("lancer-conditions", "hayleyConditionsStatus");
   const pc = game.settings.get("lancer-conditions", "hayleyPC");
   const npc = game.settings.get("lancer-conditions", "hayleyNPC");
@@ -20,8 +21,9 @@ function setupIcons() {
 
   let icons = [];
   if (keepStock)    icons = icons.concat(CONFIG.statusEffects);
-  if (cancermantis) icons = icons.concat(cancerIcons);
-  if (condStat)     icons = icons.concat(condStatIcons);
+  if (cancercond)   icons = icons.concat(cancerCondStatIcons);
+  if (cancernpc)    icons = icons.concat(cancerNPCIons);
+  if (condStat)     icons = icons.concat(hayleyCondStatIcons);
   if (pc)           icons = icons.concat(pcIcons);
   if (npc)          icons = icons.concat(npcIcons);
   if (util)         icons = icons.concat(utilIcons);
