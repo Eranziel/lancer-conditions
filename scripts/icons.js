@@ -25,7 +25,7 @@ export const cancerNPCIons = [
   "modules/lancer-conditions/icons/cancernpc/exotic.png",
   "modules/lancer-conditions/icons/cancernpc/grunt.png",
   "modules/lancer-conditions/icons/cancernpc/mercenary.png",
-  "modules/lancer-conditions/icons/cancernpc/prirate.png",
+  "modules/lancer-conditions/icons/cancernpc/pirate.png",
   "modules/lancer-conditions/icons/cancernpc/rpv.png",
   "modules/lancer-conditions/icons/cancernpc/ship.png",
   "modules/lancer-conditions/icons/cancernpc/spacer.png",
