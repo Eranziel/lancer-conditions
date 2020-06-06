@@ -1,8 +1,8 @@
 {
   "name": "lancer-conditions",
   "title": "LANCER Condition Icons",
-  "description": "",
-  "version": "0.2.0",
+  "description": "Adds token status icons by Cancermantis and Hayley.",
+  "version": "0.2.1",
   "minimumCoreVersion": "0.4.0",
   "compatibleCoreVersion": "0.6.99",
   "author": "Eranziel",
