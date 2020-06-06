@@ -14,6 +14,6 @@ The module settings allow users to customize the added icons on a per-world basi
 Additionally, the "Keep Stock Icons" setting allows users to either keep or remove the stock Foundry status icons.
 
 ## License
-All code is licensed under the GNU General Public License version 3. See LICENSE-GPL for a copy of the license terms.
+All code is licensed under the GNU General Public License version 3. See [LICENSE-GPL](LICENSE-GPL) for a copy of the license terms.
 
-All icon graphics are licensed under the Creative Commons CC BY license. See LICENSE-CC for a copy of the license terms.
+All icon graphics are licensed under the Creative Commons CC BY license. See [LICENSE-CC](LICENSE-CC) for a copy of the license terms.
