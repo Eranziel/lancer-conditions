@@ -15,7 +15,8 @@ export const registerSettings = function() {
    * Use Cancermantis' conditions and status icons
    */
   game.settings.register("lancer-conditions", "cancerConditionsStatus", {
-    name: "Use Cancermantis' Conditions & Status Icons",
+    name: "Cancermantis' Conditions & Status",
+    hint: "Enable Cancermantis' icon set for conditions & status.",
     scope: "world",
     type: Boolean,
     config: true,
@@ -26,7 +27,8 @@ export const registerSettings = function() {
    * Use Cancermantis' NPC template icons
    */
   game.settings.register("lancer-conditions", "cancerNPCTemplates", {
-    name: "Use Cancermantis' NPC Template Icons",
+    name: "Cancermantis' NPC Templates",
+    hint: "Enable Cancermantis' icon set for NPC templates.",
     scope: "world",
     type: Boolean,
     config: true,
@@ -37,7 +39,8 @@ export const registerSettings = function() {
    * Use Hayley's conditions and status icons
    */
   game.settings.register("lancer-conditions", "hayleyConditionsStatus", {
-    name: "Use Hayley's Condition & Status Icons",
+    name: "Hayley's Condition & Status",
+    hint: "Enable Hayley's icon set for conditions & status.",
     scope: "world",
     type: Boolean,
     config: true,
@@ -48,7 +51,8 @@ export const registerSettings = function() {
    * Use Hayley's PC systems icons
    */
   game.settings.register("lancer-conditions", "hayleyPC", {
-    name: "Use Hayley's PC System Icons",
+    name: "Hayley's PC Systems",
+    hint: "Enable Hayley's icon set for PC system effects.",
     scope: "world",
     type: Boolean,
     config: true,
@@ -59,7 +63,8 @@ export const registerSettings = function() {
    * Use Hayley's NPC systems icons
    */
   game.settings.register("lancer-conditions", "hayleyNPC", {
-    name: "Use Hayley's NPC System Icons",
+    name: "Hayley's NPC Systems",
+    hint: "Enable Hayley's icon set for NPC system effects.",
     scope: "world",
     type: Boolean,
     config: true,
@@ -70,7 +75,8 @@ export const registerSettings = function() {
    * Use Hayley's utility icons
    */
   game.settings.register("lancer-conditions", "hayleyUtility", {
-    name: "Use Hayley's Utility Icons",
+    name: "Hayley's Utility",
+    hint: "Enable Hayley's icon set for utility indicators.",
     scope: "world",
     type: Boolean,
     config: true,
