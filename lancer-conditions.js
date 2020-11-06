@@ -4,7 +4,7 @@ import { cancerCondStatIcons, hayleyCondStatIcons, pcIcons, npcIcons, utilIcons,
 /* ------------------------------------ */
 /* Initialize system				          	*/
 /* ------------------------------------ */
-Hooks.once('init', async function() {
+Hooks.once('setup', async function() {
 	console.log("Initializing Lancer Conditions module");
   registerSettings();
   setupIcons();
@@ -19,39 +19,18 @@ function setupIcons() {
   const npc = game.settings.get("lancer-conditions", "hayleyNPC");
   const util = game.settings.get("lancer-conditions", "hayleyUtility");
 
-  let icons = [];
-  if (keepStock)    icons = icons.concat(CONFIG.statusEffects);
-  if (cancercond)   icons = icons.concat(cancerCondStatIcons);
-  if (cancernpc)    icons = icons.concat(cancerNPCIons);
-  if (condStat)     icons = icons.concat(hayleyCondStatIcons);
-  if (pc)           icons = icons.concat(pcIcons);
-  if (npc)          icons = icons.concat(npcIcons);
-  if (util)         icons = icons.concat(utilIcons);
+  let statuses = [];
+  if (keepStock)    statuses = statuses.concat(CONFIG.statusEffects);
+  if (cancercond)   statuses = statuses.concat(cancerCondStatIcons);
+  if (cancernpc)    statuses = statuses.concat(cancerNPCIons);
+  if (condStat)     statuses = statuses.concat(hayleyCondStatIcons);
+  if (pc)           statuses = statuses.concat(pcIcons);
+  if (npc)          statuses = statuses.concat(npcIcons);
+  if (util)         statuses = statuses.concat(utilIcons);
 
   /**
    * An array of status effect icons which can be applied to Tokens
    * @type {Array}
    */
-  CONFIG.statusEffects = icons;
-
-  // TODO: is this needed? What does it do?
-  // Condition Types
-  CONFIG.conditionTypes = {
-    "burn": "Burn",
-    "dangerzone": "Danger Zone",
-    "downandout": "Down and Out",
-    "engaged": "Engaged",
-    "exposed": "Exposed",
-    "flying": "Flying",
-    "hidden": "Hidden",
-    "immobilized": "Immobilized",
-    "impaired": "Impaired",
-    "jammed": "Jammed",
-    "lockon": "Lock On",
-    "prone": "Prone",
-    "shredded": "Shredded",
-    "shutdown": "Shut Down",
-    "slowed": "Slowed",
-    "stunned": "Stunned"
-  };
+  CONFIG.statusEffects = statuses;
 }
