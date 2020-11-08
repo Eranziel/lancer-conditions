@@ -4,7 +4,7 @@
   "description": "Adds token status icons by Cancermantis and Hayley.",
   "version": "0.3.0",
   "minimumCoreVersion": "0.7.0",
-  "compatibleCoreVersion": "0.7.5",
+  "compatibleCoreVersion": "0.7.6",
   "author": "Eranziel",
   "authors": [
     {
