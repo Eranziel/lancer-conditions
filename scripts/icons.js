@@ -496,3 +496,111 @@ export const utilIcons = [
     icon: "modules/lancer-conditions/icons/util/reactor-meltdown.png",
   },
 ];
+
+export const tommyCondStatIcons = [
+  {
+    id: "bolster",
+    label: "Bolster",
+    icon: "modules/lancer-conditions/icons/tommystat/Bolstered.png",
+  },
+  {
+    id: "dangerzone",
+    label: "Danger Zone",
+    icon: "modules/lancer-conditions/icons/tommystat/Danger Zone.png",
+  },
+  {
+    id: "engaged",
+    label: "Engaged",
+    icon: "modules/lancer-conditions/icons/tommystat/Engaged.png",
+  },
+  {
+    id: "exposed",
+    label: "Exposed",
+    icon: "modules/lancer-conditions/icons/tommystat/Exposed.png",
+  },
+  {
+    id: "flying",
+    label: "Flying",
+    icon: "modules/lancer-conditions/icons/tommystat/Flying.png",
+  },
+  {
+    id: "hidden",
+    label: "Hidden",
+    icon: "modules/lancer-conditions/icons/tommystat/Hidden.png",
+  },
+  {
+    id: "hiddeninvis",
+    label: "Hidden and Invisible",
+    icon: "modules/lancer-conditions/icons/tommystat/Hidden and Invisible.png",
+  },
+  {
+    id: "immobilized",
+    label: "Immobilized",
+    icon: "modules/lancer-conditions/icons/tommystat/Immobilized.png",
+  },
+  {
+    id: "impaired",
+    label: "Impaired",
+    icon: "modules/lancer-conditions/icons/tommystat/Impaired.png",
+  },
+  {
+    id: "invisible",
+    label: "Invisible",
+    icon: "modules/lancer-conditions/icons/tommystat/Invisible.png",
+  },
+  {
+    id: "jammed",
+    label: "Jammed",
+    icon: "modules/lancer-conditions/icons/tommystat/Jammed.png",
+  },
+  {
+    id: "lockon",
+    label: "Lock On",
+    icon: "modules/lancer-conditions/icons/tommystat/Lockon.png",
+  },
+  {
+    id: "prone",
+    label: "Prone",
+    icon: "modules/lancer-conditions/icons/tommystat/Prone.png",
+  },
+  {
+    id: "shredded",
+    label: "Shredded",
+    icon: "modules/lancer-conditions/icons/tommystat/Shredded.png",
+  },
+  {
+    id: "shutdown",
+    label: "Shut Down",
+    icon: "modules/lancer-conditions/icons/tommystat/Shut Down.png",
+  },
+  {
+    id: "slowed",
+    label: "Slowed",
+    icon: "modules/lancer-conditions/icons/tommystat/Slowed.png",
+  },
+  {
+    id: "stunned",
+    label: "Stunned",
+    icon: "modules/lancer-conditions/icons/tommystat/Stunned.png",
+  },
+  {
+    id: "tier1",
+    label: "Tier 1",
+    icon: "modules/lancer-conditions/icons/tommystat/Tier 1.png",
+  },
+  {
+    id: "tier2",
+    label: "Tier 2",
+    icon: "modules/lancer-conditions/icons/tommystat/Tier 2.png",
+  },
+  {
+    id: "tier3",
+    label: "Tier 3",
+    icon: "modules/lancer-conditions/icons/tommystat/Tier 3.png",
+  },
+  {
+    id: "tiercust",
+    label: "Custom Tier",
+    icon: "modules/lancer-conditions/icons/tommystat/Tier Custom.png",
+  },
+];

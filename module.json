@@ -1,10 +1,10 @@
 {
   "name": "lancer-conditions",
   "title": "LANCER Condition Icons",
-  "description": "Adds token status icons by Cancermantis and Hayley.",
+  "description": "Adds token status icons by Tommy, Cancermantis, and Hayley.",
   "version": "0.3.0",
   "minimumCoreVersion": "0.7.0",
-  "compatibleCoreVersion": "0.7.6",
+  "compatibleCoreVersion": "0.7.8",
   "author": "Eranziel",
   "authors": [
     {
@@ -21,6 +21,11 @@
       "name": "Hayley",
       "email": "",
       "url": "https://drive.google.com/drive/folders/1bY1GPvCP3jNajtXSElm40VM_REH5eQ6i?usp=sharing"
+    },
+    {
+      "name": "Tommy",
+      "email": "",
+      "url": "https://drive.google.com/drive/folders/1cP--G-XLB1QXpTpjuIDrUFnaspunAwtr"
     }
   ],
   "esmodules": ["lancer-conditions.js"],
