@@ -509,6 +509,11 @@ export const tommyCondStatIcons = [
     icon: "modules/lancer-conditions/icons/tommystat/Danger Zone.png",
   },
   {
+    id: "downandout",
+    label: "Down and Out",
+    icon: "modules/lancer-conditions/icons/tommystat/Down and Out.png",
+  },
+  {
     id: "engaged",
     label: "Engaged",
     icon: "modules/lancer-conditions/icons/tommystat/Engaged.png",
