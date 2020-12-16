@@ -1,5 +1,5 @@
 import { registerSettings } from "./scripts/settings.js"
-import { cancerCondStatIcons, hayleyCondStatIcons, pcIcons, npcIcons, utilIcons, cancerNPCIons } from "./scripts/icons.js";
+import { cancerCondStatIcons, hayleyCondStatIcons, pcIcons, npcIcons, utilIcons, cancerNPCIons, tommyCondStatIcons } from "./scripts/icons.js";
 
 /* ------------------------------------ */
 /* Initialize system				          	*/
@@ -18,6 +18,7 @@ function setupIcons() {
   const pc = game.settings.get("lancer-conditions", "hayleyPC");
   const npc = game.settings.get("lancer-conditions", "hayleyNPC");
   const util = game.settings.get("lancer-conditions", "hayleyUtility");
+  const tommys = game.settings.get("lancer-conditions", "tommyConditionsStatus");
 
   let statuses = [];
   if (keepStock)    statuses = statuses.concat(CONFIG.statusEffects);
@@ -27,6 +28,7 @@ function setupIcons() {
   if (pc)           statuses = statuses.concat(pcIcons);
   if (npc)          statuses = statuses.concat(npcIcons);
   if (util)         statuses = statuses.concat(utilIcons);
+  if (tommys)       statuses = statuses.concat(tommyCondStatIcons);
 
   /**
    * An array of status effect icons which can be applied to Tokens

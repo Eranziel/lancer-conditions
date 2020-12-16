@@ -83,5 +83,17 @@ export const registerSettings = function() {
     default: false
   });
 
+  /**
+   * Use Tommy's conditions and status icons
+   */
+  game.settings.register("lancer-conditions", "tommyConditionsStatus", {
+    name: "Tommy's Condition & Status",
+    hint: "Enable Tommy's icon set for conditions & status.",
+    scope: "world",
+    type: Boolean,
+    config: true,
+    default: false
+  });
+
 
 }
