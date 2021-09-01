@@ -1,7 +1,7 @@
 # lancer-conditions
 Foundry VTT module which adds a variety of token status icons. While they are targeted towards LANCER, the module is not system restricted so can be used with any.
 
-Icon graphics are the work of Cancermantis and Hayley on PilotNET, the LANCER Discord server. Some icons are adapted from icons available on game-icons.net under a CC BY license.
+Icon graphics are the work of Cancermantis, Hayley, and Tommy on PilotNET, the LANCER Discord server. Some icons are adapted from icons available on game-icons.net under a CC BY license.
 
 ## Installation
 Manifest URL: https://github.com/Eranziel/lancer-conditions/raw/master/module.json
